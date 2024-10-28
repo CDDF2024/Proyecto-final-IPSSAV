@@ -1,0 +1,53 @@
+/* VARIABLES */
+:root{
+    --letras:#2B4265;
+    --thead:#011e4b;
+    --cabecera:#03ABE4;
+    --thletter:#D6E1EF;
+    --rows:#BCD0E2;
+}
+/* TABLAS */
+
+.table {
+    border-radius: 5px; /* Bordes redondeados */
+    overflow: hidden; /* Para aplicar bordes redondeados */
+    border-spacing: 0 10px; 
+}
+
+.table th, .table td {
+    padding: 105px; /* Espaciado uniforme */
+    text-align: center; /* Centrar texto en celdas */
+}
+
+.table th {
+    font-weight: bold;
+    background-color: red; /* Fondo oscuro para encabezados */
+    color: var(--rows); /* Texto blanco para encabezados */
+}
+
+.table td {
+    background-color: #ffffff; /* Fondo blanco para celdas */
+    color: var(--letras);
+}
+
+.text-primary {
+    color: #007bff; /* Color primario para títulos */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Color del botón */
+    border-color: #007bff;
+}
+
+.alert {
+    margin-top: 20px; /* Espaciado para alertas */
+}
+
+/* Animación para los íconos de Font Awesome */
+.icon-hover {
+    transition: transform 0.3s ease;
+}
+
+.icon-hover:hover {
+    transform: scale(1.2); /* Aumenta el tamaño del ícono al pasar el cursor */
+}

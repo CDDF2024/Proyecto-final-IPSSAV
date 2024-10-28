@@ -1,0 +1,21 @@
+:root {
+    --primary: #20a01c;
+    --light: #ccf8bb;
+    --dark: #191C24;
+}
+body{
+    background-image: url('../img/Fondo.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-form{
+    margin: 10px;
+    font-weight: 600;
+    background-color:var(--light) ;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+

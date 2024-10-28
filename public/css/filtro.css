@@ -1,0 +1,22 @@
+/* Estilo para el contenedor de las opciones */
+#biologicosOptions, #muestrasOptions {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: white;
+    position: absolute; /* Para superponerlo sobre otros elementos */
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+/* Estilo para cada opción */
+.option-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Efecto hover */
+.option-item:hover {
+    background-color: #007bff; /* Color de fondo al pasar el mouse */
+    color: white; /* Cambiar el color del texto al pasar el mouse */
+}
